@@ -1,6 +1,7 @@
 package Ejercicio3;
 
 public class Libro {
+	//ATRIVUTOS
 	private String ISBN;
 	private String Titulo;
 	private String Autor;
@@ -28,9 +29,9 @@ public class Libro {
 		
 	
 		if (this.NumPaginas > Pagina.NumPaginas) {
-			System.out.print("El libro "+this.Titulo + " Tiene m·s paginas");
+			System.out.print("El libro "+this.Titulo + " Tiene m√°s paginas");
 		}else {
-			System.out.print("El libro "+Pagina.Titulo + " Tiene m·s paginas");
+			System.out.print("El libro "+Pagina.Titulo + " Tiene m√°s paginas");
 		}
 	
 		
