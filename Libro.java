@@ -1,7 +1,7 @@
 package Ejercicio3;
 
 public class Libro {
-	//ATRIVUTOS
+	//ATRIBUTOS
 	private String ISBN;
 	private String Titulo;
 	private String Autor;
@@ -18,7 +18,6 @@ public class Libro {
 	
 	
 	public Libro(String iSBN, String titulo, String autor, Integer numPaginas) {
-		super();
 		ISBN = iSBN;
 		Titulo = titulo;
 		Autor = autor;
